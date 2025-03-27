@@ -442,6 +442,10 @@ section .title::after{
 }
 .contact .contact-content .info .sub-title{
     color: #333;
+    transition: all 0.3s ease;
+}
+.contact .contact-content .info .sub-title:hover{
+    color: crimson;
 }
 .contact .right form .fields{
     display: flex;
@@ -652,30 +656,30 @@ footer span a:hover{
 
 @media (max-width: 412px){
     .home .home-content .text-1{
-        font-size: 20px;
+        font-size: 19px;
     }
     .home .home-content .text-2{
-        font-size: 43px;
+        font-size: 41px;
     }
     .home .home-content .text-3{
-        font-size: 20px;
+        font-size: 19px;
     }
     .about .about-content .right .text{
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
 @media (max-width: 375px){
     .home .home-content .text-1{
-        font-size: 18px;
+        font-size: 17px;
     }
     .home .home-content .text-2{
-        font-size: 39px;
+        font-size: 38px;
     }
     .home .home-content .text-3{
-        font-size: 18px;
+        font-size: 17px;
     }
     .about .about-content .right .text{
-        font-size: 16px;
+        font-size: 15px;
     }
 }
