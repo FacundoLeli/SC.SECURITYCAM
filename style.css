@@ -209,7 +209,7 @@ section .title::after{
     color: crimson;
 }
 .about .about-content .right p{
-    text-align: justify;
+    text-align: left;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -285,7 +285,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
-    text-align: justify;
+    text-align: left;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -420,7 +420,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
-    text-align: justify;
+    text-align: left;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -641,16 +641,16 @@ footer span a:hover{
 
 @media (max-width: 430px){
     .home .home-content .text-1{
-        font-size: 23px;
+        font-size: 20px;
     }
     .home .home-content .text-2{
-        font-size: 45px;
+        font-size: 42px;
     }
     .home .home-content .text-3{
-        font-size: 22px;
+        font-size: 20px;
     }
     .about .about-content .right .text{
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 
@@ -665,7 +665,7 @@ footer span a:hover{
         font-size: 19px;
     }
     .about .about-content .right .text{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -680,6 +680,6 @@ footer span a:hover{
         font-size: 17px;
     }
     .about .about-content .right .text{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
