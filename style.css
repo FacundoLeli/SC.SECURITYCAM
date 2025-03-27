@@ -515,6 +515,91 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+/* SECCION COMBOS ESTILOS */
+.combo{
+    background: #1e1f21;
+    color: #fff;
+}
+.wrapper{
+    padding: 10px 10%;
+}
+#card-area{
+    padding: 50px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.boxs{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+}
+.imagen{
+    width: 650px;
+    height: 400px;
+}
+.boxs img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay{
+    height: 0;
+    width: 100%;
+    background: linear-gradient(transparent,#1c1c1c 65%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+.overlay h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 95%;
+    font-family: bebas neue;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white; /* Añadido para el título */
+}
+.overlay a{
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    background: crimson;
+    border-radius: 50px;
+    border: 2px solid crimson;
+    text-align: center;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+.overlay a:hover{
+    background: none;
+    text-decoration: none;
+}
+.boxsLhover img{
+    transform: scale(1.2);
+}
+.boxs:hover .overlay{
+    height: 100%;
+}
+.overlay p { /* Añadido para el texto de los párrafos */
+    color: white;
+}
 
 
 
